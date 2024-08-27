@@ -1,0 +1,61 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/Front-End/my-app/node_modules
+/Front-End/my-app/.pnp
+/Front-End/my-app/.pnp.js
+
+# testing
+/Front-End/my-app/coverage
+
+# production
+/Front-End/my-app/build
+
+# misc
+/Front-End/my-app/.DS_Store
+/Front-End/my-app/.env.local
+/Front-End/my-app/.env.development.local
+/Front-End/my-app/.env.test.local
+/Front-End/my-app/.env.production.local
+
+/Front-End/my-app/npm-debug.log*
+/Front-End/my-app/yarn-debug.log*
+/Front-End/my-app/yarn-error.log*
+
+HELP.md
+.gradle
+Back-End/flightApp/build/
+!Back-End/flightApp/gradle/wrapper/gradle-wrapper.jar
+!Back-End/flightApp/**/src/main/**/build/
+!Back-End/flightApp/**/src/test/**/build/
+
+### STS ###
+Back-End/flightApp/.apt_generated
+Back-End/flightApp/.classpath
+Back-End/flightApp/.factorypath
+Back-End/flightApp/.project
+Back-End/flightApp/.settings
+Back-End/flightApp/.springBeans
+Back-End/flightApp/.sts4-cache
+Back-End/flightApp/bin/
+!Back-End/flightApp/**/src/main/**/bin/
+!Back-End/flightApp/**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+Back-End/flightApp/.idea
+Back-End/flightApp/*.iws
+Back-End/flightApp/*.iml
+Back-End/flightApp/*.ipr
+Back-End/flightApp/out/
+!Back-End/flightApp/**/src/main/**/out/
+!Back-End/flightApp/**/src/test/**/out/
+
+### NetBeans ###
+Back-End/flightApp/nbproject/private/
+Back-End/flightApp/nbbuild/
+Back-End/flightApp/dist/
+Back-End/flightApp/nbdist/
+Back-End/flightApp/.nb-gradle/
+
+### VS Code ###
+Back-End/flightApp/.vscode/
